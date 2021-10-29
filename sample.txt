@@ -1,0 +1,215 @@
+# INFOSYS 222 2019S1 A2P2 Sample Output (limited to first 10 rows)
+## Q1
+No output
+
+## Q2
+Product ID  Product Name  Supplier ID  Category ID  Quantity Per Unit   Unit Price  Units In Stock  Units On Order  Reorder Level  Discontinued
+----------  ------------  -----------  -----------  ------------------  ----------  --------------  --------------  -------------  ------------
+1           Chai          1            1            10 boxes x 20 bags  18.0        39              0               10             0
+2           Chang         1            1            24 - 12 oz bottles  19.0        17              40              25             0
+3           Aniseed Syru  1            2            12 - 550 ml bottle  10.0        13              70              25             0
+4           Chef Anton's  2            2            48 - 6 oz jars      22.0        53              0               0              0
+5           Chef Anton's  2            2            36 boxes            21.35       0               0               0              1
+6           Grandma's Bo  3            2            12 - 8 oz jars      25.0        120             0               25             0
+7           Uncle Bob's   3            7            12 - 1 lb pkgs.     30.0        15              0               10             0
+8           Northwoods C  3            2            12 - 12 oz jars     40.0        6               0               0              0
+9           Mishi Kobe N  4            6            18 - 500 g pkgs.    97.0        29              0               0              1
+10          Ikura         4            8            12 - 200 ml jars    31.0        31              0               0              0
+
+## Q3
+ProductName    UnitPrice   UnitsInStock
+-------------  ----------  ------------
+Cote de Blaye  263.5       17
+Thuringer Ros  123.79      0
+Mishi Kobe Ni  97.0        29
+Sir Rodney's   81.0        40
+Carnarvon Tig  62.5        42
+Raclette Cour  55.0        79
+Manjimup Drie  53.0        20
+Tarte au sucr  49.3        17
+Ipoh Coffee    46.0        17
+Rossle Sauerk  45.6        26
+
+## Q4
+Phone
+--------------
+(503) 555-3199
+
+## Q5
+CustomerID  CompanyName          ContactName   ContactTitle          Address        City        Region      PostalCode  Country     Phone        Fax
+----------  -------------------  ------------  --------------------  -------------  ----------  ----------  ----------  ----------  -----------  -----------
+ALFKI       Alfreds Futterkiste  Maria Anders  Sales Representative  Obere Str. 57  Berlin                  12209       Germany     030-0074321  030-0076545
+ANATR       Ana Trujillo Empare  Ana Trujillo  Owner                 Avda. de la C  Mexico D.F              05021       Mexico      (5) 555-472  (5) 555-374
+AROUT       Around the Horn      Thomas Hardy  Sales Representative  120 Hanover S  London                  WA1 1DP     UK          (171) 555-7  (171) 555-6
+BERGS       Berglunds snabbkop   Christina Be  Order Administrator   Berguvsvagen   Lulea                   S-958 22    Sweden      0921-12 34   0921-12 34
+BLAUS       Blauer See Delikate  Hanna Moos    Sales Representative  Forsterstr. 5  Mannheim                68306       Germany     0621-08460   0621-08924
+BLONP       Blondesddsl pere et  Frederique C  Marketing Manager     24, place Kle  Strasbourg              67000       France      88.60.15.31  88.60.15.32
+BOLID       Bolido Comidas prep  Martin Somme  Owner                 C/ Araquil, 6  Madrid                  28023       Spain       (91) 555 22  (91) 555 91
+BONAP       Bon app'             Laurence Leb  Owner                 12, rue des B  Marseille               13008       France      91.24.45.40  91.24.45.41
+BOTTM       Bottom-Dollar Marke  Elizabeth Li  Accounting Manager    23 Tsawassen   Tsawassen   BC          T2F 8M4     Canada      (604) 555-4  (604) 555-3
+CACTU       Cactus Comidas para  Patricio Sim  Sales Agent           Cerrito 333    Buenos Air              1010        Argentina   (1) 135-555  (1) 135-489
+
+## Q6
+OrderID     CustomerID  EmployeeID  OrderDate                RequiredDate             ShippedDate              ShipVia     Freight     ShipName                   ShipAddress         ShipCity    ShipRegion  ShipPostalCode  ShipCountry
+----------  ----------  ----------  -----------------------  -----------------------  -----------------------  ----------  ----------  -------------------------  ------------------  ----------  ----------  --------------  -----------
+10248       VINET       5           1996-07-04 00:00:00.000  1996-08-01 00:00:00.000  1996-07-16 00:00:00.000  3           32.38       Vins et alcools Chevalier  59 rue de l-Abbaye  Reims                   51100           France
+10249       TOMSP       6           1996-07-05 00:00:00.000  1996-08-16 00:00:00.000  1996-07-10 00:00:00.000  1           11.61       Toms Spezialitaten         Luisenstr. 48       Munster                 44087           Germany
+10250       HANAR       4           1996-07-08 00:00:00.000  1996-08-05 00:00:00.000  1996-07-12 00:00:00.000  2           65.83       Hanari Carnes              Rua do Paco, 67     Rio de Jan  RJ          05454-876       Brazil
+10251       VICTE       3           1996-07-08 00:00:00.000  1996-08-05 00:00:00.000  1996-07-15 00:00:00.000  1           41.34       Victuailles en stock       2, rue du Commerce  Lyon                    69004           France
+10252       SUPRD       4           1996-07-09 00:00:00.000  1996-08-06 00:00:00.000  1996-07-11 00:00:00.000  2           51.3        Supremes delices           Boulevard Tirou, 2  Charleroi               B-6000          Belgium
+10253       HANAR       3           1996-07-10 00:00:00.000  1996-07-24 00:00:00.000  1996-07-16 00:00:00.000  2           58.17       Hanari Carnes              Rua do Paco, 67     Rio de Jan  RJ          05454-876       Brazil
+10254       CHOPS       5           1996-07-11 00:00:00.000  1996-08-08 00:00:00.000  1996-07-23 00:00:00.000  2           22.98       Chop-suey Chinese          Hauptstr. 31        Bern                    3012            Switzerland
+10255       RICSU       9           1996-07-12 00:00:00.000  1996-08-09 00:00:00.000  1996-07-15 00:00:00.000  3           148.33      Richter Supermarkt         Starenweg 5         Geneve                  1204            Switzerland
+10256       WELLI       3           1996-07-15 00:00:00.000  1996-08-12 00:00:00.000  1996-07-17 00:00:00.000  2           13.97       Wellington Importadora     Rua do Mercado, 12  Resende     SP          08737-363       Brazil
+10257       HILAA       4           1996-07-16 00:00:00.000  1996-08-13 00:00:00.000  1996-07-22 00:00:00.000  3           81.91       HILARION-Abastos           Carrera 22 con Ave  San Cristo  Tachira     5022            Venezuela
+
+## Q7
+Country
+----------
+Germany
+Mexico
+UK
+Sweden
+France
+Spain
+Canada
+Argentina
+Switzerland
+Brazil
+
+## Q8
+Numbers of Order
+----------------
+830
+
+## Q9
+ProductName
+-----------
+Chang
+Ikura
+Konbu
+
+## Q10
+ProductName           UnitsInStock
+--------------------  ------------
+Rhonbrau Klosterbier  125
+Boston Crab Meat      123
+Grandma's Boysenberr  120
+Pate chinois          115
+Sirop d'erable        113
+Geitost               112
+Inlagd Sill           112
+Sasquatch Ale         111
+Gustaf's Knackebrod   104
+Rod Kaviar            101
+
+## Q11
+Name            Address
+--------------  ---------------------------------------------
+DAVOLIO, Nancy  507 - 20th Ave. E.Apt. 2A, Seattle 98122, USA
+FULLER, Andrew  908 W. Capital Way, Tacoma 98401, USA
+LEVERLING, Jan  722 Moss Bay Blvd., Kirkland 98033, USA
+PEACOCK, Marga  4110 Old Redmond Rd., Redmond 98052, USA
+BUCHANAN, Stev  14 Garrett Hill, London SW1 8JR, UK
+SUYAMA, Michae  Coventry House Miner Rd., London EC2 7JR, UK
+KING, Robert    Edgeham Hollow Winchester Way, London RG1 9SP
+CALLAHAN, Laur  4726 - 11th Ave. N.E., Seattle 98105, USA
+DODSWORTH, Ann  7 Houndstooth Rd., London WG2 7LT, UK
+
+## Q12
+OrderID     ProductID   UnitPrice   Quantity    Discount    Subtotal
+----------  ----------  ----------  ----------  ----------  ----------
+10250       41          $7.7        10          0.0%        $77.0
+10250       51          $42.4       35          15.0%       $1261.4
+10250       65          $16.8       15          15.0%       $214.2
+
+## Q13
+ProductName                   CategoryID  UnitPrice   Discontinued
+----------------------------  ----------  ----------  ------------
+Chef Anton's Cajun Seasoning  2           22.0        0
+Cote de Blaye                 1           263.5       0
+
+## Q14
+No output
+
+## Q15
+LastName    FirstName   Age
+----------  ----------  ----------
+Davolio     Nancy       70
+Fuller      Andrew      67
+Leverling   Janet       56
+Peacock     Margaret    82
+Buchanan    Steven      64
+Suyama      Michael     56
+King        Robert      59
+Callahan    Laura       61
+Dodsworth   Anne        53
+
+## Q16
+No output
+
+## Q17
+No output
+
+## Q18
+No output
+
+## Q19
+No output
+
+## Q20
+Day of Week  Hired
+-----------  ----------
+Friday       2
+Monday       1
+Saturday     1
+Sunday       3
+Tuesday      1
+Wednesday    1
+
+## Q21
+LastName    FirstName   Total
+----------  ----------  -----------
+Peacock     Margaret    $232890.846
+
+## Q22
+Employee    Manager
+----------  ----------
+Nancy       Andrew
+Andrew      No manager
+Janet       Andrew
+Margaret    Andrew
+Steven      Andrew
+Michael     Steven
+Robert      Steven
+Laura       Andrew
+Anne        Steven
+
+## Q23
+Company        Recommended  Ordered     Discount    Percentage
+-------------  -----------  ----------  ----------  ----------
+Queen Cozinha  $34043.9     $25717.5    $8326.4     24.46%
+Bolido Comida  $5543.3      $4232.85    $1310.45    23.64%
+Split Rail Be  $14718.52    $11441.63   $3276.89    22.26%
+Piccolo und m  $29595.0     $23128.86   $6466.14    21.85%
+Mere Paillard  $36878.5     $28872.19   $8006.31    21.71%
+Simons bistro  $21062.25    $16817.1    $4245.15    20.16%
+Centro comerc  $126.0       $100.8      $25.2       20.0%
+Furia Bacalha  $8025.0      $6427.42    $1597.58    19.91%
+La maison d'A  $11514.05    $9328.2     $2185.85    18.98%
+LILA-Supermer  $19819.66    $16076.6    $3743.06    18.89%
+
+## Q24
+ShipCountry  Shipper
+-----------  ----------------
+France       Federal Shipping
+Switzerland  Federal Shipping
+Italy        Speedy Express
+Argentina    United Package
+Austria      United Package
+Belgium      United Package
+Brazil       United Package
+Canada       United Package
+Denmark      United Package
+Finland      United Package
+
